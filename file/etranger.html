@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/book.css" />
+    <script defer src="../js/etranger.js"></script>
+    <title>Bbiblio - Roman Étranger</title>
+  </head>
+  <body>
+
+  <!-- /**** Navigateur ****/ -->
+    <nav>
+        <header>
+            <a href="../index.html"><img src="../image/logo.png" alt="Bbiblio"></a>
+        </header>
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../file/reglement.html">Règlement</a></li>
+            <li><a href="../file/oeuvre.html">Oeuvres</a></li>
+            <li><a href="../file/contact.html">Contact</a></li>
+            <li><a href="./file/inscription.html">Inscription/Connexion</a></li>
+        </ul>
+    </nav>
+  <!-- /**** Navigateur fin ****/ -->
+  <br><br><br><br><br>
+
+  <!-- Oeuvre -->
+  <div id="titre">
+    <div class="line"></div>
+    <h1>Roman Étranger</h1>
+    <div class="line"></div>
+  </div>
+
+  <div class="oeuvre">
+    <img id="img5" src="../image/sl4.jpg" alt="Roman Étranger">
+    <img id="img6" src="../image/sl5.jpg" alt="Roman Étranger">
+    <img id="img7" src="../image/sl6.jpg" alt="Roman Étranger">
+    <img id="img8" src="../image/sl7.jpg" alt="Roman Étranger">
+  </div>
+
+  <!-- Notation Jury -->
+  <div id="titre">
+    <div class="line"></div>
+    <h1>Votre avis sur cette Oeuvre</h1>
+    <div class="line"></div>
+  </div>
+
+  <div class="principal">
+    <div class="jaquette">
+        <img id="jaquette2" src="../image/jaquette.jpg" alt="">
+        <div class="nota">
+          <div class="button_cont2" align="center"><a class="example_b" href="" >TÉLÉCHARGER</a></div>
+        </div>
+    </div>
+     <div class="score">
+        <div class="form-group">
+          <select id="product-select" class="form-control custom-select">
+              <option value="0" disabled selected>Note de 1 à 10</option>
+              <option value="style">Style</option>
+              <option value="illustration">Illustration</option>
+              <option value="page">Mise en page</option>
+              <option value="emotion">Émotion</option>
+              <!-- <option value="phillips">Phillips 4K TV</option> -->
+            </select>
+        </div>
+        <div class="form-group">
+          <input type="number" id="rating-control" class="form-control" step="0.1" max="10" placeholder="Note de 1 à 10" disabled>
+        </div>
+        <br>
+        <div class="sco">
+            <div class="nota style">
+              <h1>Style :</h1>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+            </div>
+            <div class="nota illustration">
+              <h1>Illustration :</h1>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+            </div>
+            <div class="nota page">
+              <h1>Mise en page :</h1>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+            </div>
+            <div class="nota emotion">
+              <h1>Émotion :</h1>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+            </div>
+            <br><br>
+            <div class="nota final">
+              <h1>Note général :</h1>
+                <div class="stars-outer">
+                  <div class="starsis stars-inner"></div>
+                </div>
+                <span class="num number-rating"></span>
+            </div>
+            <br>
+            <div class="nota final">
+              <textarea id="w3review" name="w3review" rows="4" cols="115">
+ Commentaire :
+                </textarea>
+            </div>
+            <p id="resultat"></p>
+            <br>
+            <div class="nota">
+              <div class="button_cont" align="center"><a class="example_a" href="#jaquette2">VOTEZ</a></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+  <!-- /**** Logos ****/ -->
+  <div id="titre">
+    <div class="line"></div>
+    <h1>Nos Sponsors</h1>
+    <div class="line"></div>
+  </div>
+   <div class="logos">
+    <img src="../image/logo1.png" alt="">
+    <img src="../image/logo2.png" alt="">
+    <img src="../image/logo3.png" alt="">
+    <img src="../image/logo4.png" alt="">
+    <img src="../image/logo5.png" alt="">
+    <img src="../image/logo6.png" alt="">
+    <img src="../image/logo7.png" alt="">
+    <img src="../image/logo8.png" alt="">
+  </div>
+  <!-- /**** Logos fin ****/ -->
+  
+  <!-- /**** Footer ****/ -->
+  <footer>
+    <div class="partenaires">
+      <h5>Site partenaires</h5>
+      <a href="https://www.amazon.fr">Amazon</a>
+      <a href="https://www.fnac.com/">Fnac</a>
+      <a href="https://www.ebay.fr/">Ebay</a>
+      <a href="https://www.waterstones.com">Waterstones</a>
+    </div>
+    <div class="center">
+      <div class="coordonner">
+        <img src="../image/logo.png" alt="">
+        <a href="">22 Avenue lamartine</a>
+        <a href="">06000 Nice</a>
+        <a href="">04 92 63 53 43</a>
+      </div>
+      <div class="reseau">
+        <a href=""><img src="../image/facebook.png" alt=""></a>
+        <a href=""><img src="../image/twitter.png" alt=""></a>
+        <a href=""><img src="../image/pinterest.png" alt=""></a>
+      </div>
+    </div>
+    <div class="dons">
+      <h5>Faites un don</h5>
+      <button class="btn">Dons</button>
+    </div>
+  </footer>
+  <!-- /**** Footer fin ****/ -->
+  </body>
+  </html>

@@ -1,0 +1,25 @@
+.oeuvre, .oeuvre2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.oeuvre{
+    margin-bottom : 200px;
+}
+
+.oeuvre2{
+    margin: 50px 150px
+}
+
+.sousoeuvre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sousoeuvre a{
+    font-size: 30px;
+    text-decoration: none;
+    color:#18273d;
+    font-weight: bold;
+}
