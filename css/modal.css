@@ -147,7 +147,7 @@ Modal
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 65vh;
+  height: 70vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -159,7 +159,7 @@ Modal
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 65vh;
+  height: 70vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -195,10 +195,10 @@ li {
 li a {
   text-decoration: none;
   display: inline-block;
-  color: black;
-  font-family: Source Sans Pro;
+  color: #18273d;
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
-  font-size: 28px;
+  font-size: 15px;
   padding: 0 20px;
 }
 
@@ -207,7 +207,7 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: black;
+  background: #18273d;
   transition: width .3s;
 }
 
