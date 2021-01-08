@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../css/book.css" />
-    <script defer src="../js/francais.js"></script>
-    <script defer src="../js/francais2.js"></script>
+    <script defer src="../js/contact.js"></script>
     <title>Bbiblio - Contact</title>
   </head>
   <body>
@@ -16,7 +15,7 @@
   <!-- /**** Navigateur ****/ -->
   <nav>
     <header>
-        <a href="./index.html"><img src="../image/logo.png" alt="Bbiblio"></a>
+        <a href="../index.html"><img src="../image/logo.png" alt="Bbiblio"></a>
     </header>
     <ul>
         <li><a href="../index.html">Accueil</a></li>
@@ -55,7 +54,7 @@
   <!-- Contact -->
   <form id="form" class="topBefore">
     <input id="name" type="text" placeholder="NOM">
-    <input id="email" type="text" placeholder="E-MAIL">
+    <input id="email" type="text" pattern="\b[\w.-]+@[\w.-]+.\w{2,4}\b" title="Veuillez inscrire une adresse mail valide" placeholder="E-MAIL">
     <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
     <input id="submit" type="submit" value="ENVOYEZ VOTRE MESSAGE">
   </form>

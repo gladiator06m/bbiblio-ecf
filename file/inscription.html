@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="../js/inscription.js"></script>
+    <title>Modal</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/modal.css" />
+    <link rel="stylesheet" href="../css/book.css" />
+  </head>
+  <body>
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <form id="form" class="box" class="topBefore">
+          <input class="insc" id="name" type="text" placeholder="IDENTIFIANT">
+          <input class="insc" id="mdp" type="password" placeholder="MOT DE PASSE">
+          <a class="btn modal-btn">
+            Connexion
+          </a>
+          <!-- APPEL DE LA BASE DE DONNEES POUR IDENTIFICATION. SI ID VALIDE, DEMANDEZ DIRECTEMENT DE MODIFIER LE MOT DE PASSE  -->
+          <br>
+          <h3>Inscription?</h3>  
+          <a href="../file/inscjury.html">Je veux être Jury</a>
+          <a href="../file/inscauteur.html">Je veux veux participer au concours</a>
+        </form>
+        <a href="../index.html" class="close-btn"><i class="fas fa-times"></i></a>
+      </div>
+    </div>
+    <div class="modal-overlay2">
+      <div class="modal-container2">
+        <form id="form" class="box" class="topBefore">
+          <input class="insc" id="mdp2" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{10,}$" title="Le mot de passe doit contenir au moins 10 caractères, une lettre minuscule, une lettre majuscule et un chiffre"type="password" placeholder="MOT DE PASSE">
+          <input class="insc" id="mdp3" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{10,}$" title="Le mot de passe doit contenir au moins 10 caractères, une lettre minuscule, une lettre majuscule et un chiffre" type="password" placeholder="CONFIRMEZ MOT DE PASSE">
+          <button class="btn modal-btn2">
+            Enregistrer
+          </button>
+          <br>
+          <h3>Inscription?</h3>  
+          <a href="../file/inscjury.html">Je veux être Jury</a>
+          <a href="../file/inscauteur.html">Je veux veux participer au concours</a>
+        </form>
+        <a href="../index.html" class="close-btn"><i class="fas fa-times"></i></a>
+      </div>
+    </div>
+  </body>
+</html>

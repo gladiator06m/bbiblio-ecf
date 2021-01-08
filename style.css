@@ -424,23 +424,6 @@ article img{
   padding: 40px;
 }
 
-/* .art4{
-  grid-row:3/4;
-  grid-column: 8/10;
-  padding: 40px;
-} */
-
-/* .art2, .art4{
-  padding: 40px;
-  border-width: 2px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      rgba(0, 0, 0, 0), 
-      #BFA959, rgba(0, 0, 0, 0)
-    ) 1 100%;
-} */
 
 .sous_titre{
   font-size: 35px;
