@@ -144,7 +144,7 @@ Modal
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 55vh;
+  height: 65vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -156,7 +156,7 @@ Modal
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 55vh;
+  height: 65vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
