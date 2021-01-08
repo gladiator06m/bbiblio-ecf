@@ -1,0 +1,5 @@
+L'identifiant et le mot de passe sur la page inscription/connexion doit impérativement correspondre à ce qui est inscrit ci-dessous
+autrement tu ne pourras passer à l'étape suivante. Merci
+
+IDENTIFIANT = dupond16881
+MOT DE PASSE = Hkrakken1986
