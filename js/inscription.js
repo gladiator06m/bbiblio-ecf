@@ -1,8 +1,3 @@
-// select modal-btn,modal-overlay,close-btn
-// listen for click events on modal-btn and close-btn
-// when user clicks modal-btn add .open-modal to modal-overlay
-// when user clicks close-btn remove .open-modal from modal-overlay
-
 const modalBtn = document.querySelector(".modal-btn");
 const modalBtn2 = document.querySelector(".modal-btn2");
 const modal = document.querySelector(".modal-overlay");
@@ -23,20 +18,25 @@ modalBtn.addEventListener("click", function () {
  
 });
 
-modalBtn2.addEventListener("click", function () {
+modalBtn2.addEventListener("click", function (e) {
   const mdp3 = document.getElementById("mdp3").value
   const mdp2 = document.getElementById("mdp2").value
-  if ( mdp3 === '' || mdp2 === '' ) {
-    alert("Veuillez insérer un mot de passe")
-    windows.open("../index.html")
-  }
-     
-  if ( mdp3 === mdp2 ) {
-    alert("Vérifiez votre Boite de reception ou Veuillez recommencer")
-  }
 
-  else{
-    alert("- Les mots de passe ne sont pas identiques, vérifier que votre mot de passe comporte au moin 10 caractère, une majuscule et au moins un chiffre")
-  }
+  if (mdp2 == '') 
+    alert ("Les mots de passe ne sont pas identiques, vérifier que votre mot de passe comporte au moin 10 caractère, une majuscule et au moins un chiffre"); 
+                      
+  else if (mdp3 == '') 
+    alert ("Veuillez confirmer mot de passe"); 
+                      
+  else if (mdp2 != mdp3) { 
+    alert ("\nLes mots de passe ne sont pas identique veuillez recommencer...") 
+    return false; 
+    } 
+  
+  else{ 
+    alert("Félicitation, votre compte a bien été créer") 
+    return true; 
+    } 
+    e.preventDefault()
 });
 
