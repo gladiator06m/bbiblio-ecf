@@ -158,7 +158,6 @@ Modal
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 70vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
